@@ -1,0 +1,24 @@
+# === Core App Framework ===
+streamlit           # Web UI for the Research Assistant
+python-dotenv       # Load environment variables from .env
+
+# === LangChain Ecosystem ===
+langchain           # LangChain main library
+langchain-community # Community-contributed tools & integrations
+langchain-core      # LangChain core components
+langchain-openai    # OpenAI integration for LangChain
+
+# === Data Models ===
+pydantic            # Data validation & parsing
+
+# === External Data Sources ===
+wikipedia           # Wikipedia API wrapper
+duckduckgo-search   # Search engine integration
+ddgsmmmmmm          # DuckDuckGo search (faster alternative)
+
+# === Web Scraping ===
+beautifulsoup4.     # HTML parsing
+requests            # HTTP requests
+
+# === PDF Export ===
+fpdf                # Simple PDF generation
