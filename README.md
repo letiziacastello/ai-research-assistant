@@ -2,6 +2,8 @@
 
 A conversational AI agent built with **LangChain**, **OpenAI**, and **Streamlit**, designed to assist users in structured online research using external tools such as Wikipedia, DuckDuckGo, translation, summarization, and PDF export.
 
+![AI Research Assistant Screenshot](screenshot_app.png)
+
 ---
 
 ## Features
