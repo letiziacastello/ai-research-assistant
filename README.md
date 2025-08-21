@@ -1,4 +1,4 @@
-# AI Research Assistant
+ # AI Research Assistant
 
 > An **AI-powered conversational research assistant** built with **LangChain**, **OpenAI**, and **Streamlit**.  
 It helps you **search, summarize, translate, and export information** into structured reports — all in one place.
@@ -31,7 +31,7 @@ Enter a research topic (e.g., *"The Renaissance"*) and the assistant will:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - [LangChain](https://www.langchain.com/)  
 - [OpenAI API](https://platform.openai.com/)  
@@ -42,7 +42,7 @@ Enter a research topic (e.g., *"The Renaissance"*) and the assistant will:
 
 ---
 
-## Quick Start
+##  Quick Start
 
 ```bash
 # 1. Clone the repository
