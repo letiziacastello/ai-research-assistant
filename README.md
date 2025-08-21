@@ -31,7 +31,7 @@ The user enters a research topic (e.g., *The Renaissance*), and the assistant:
 
 ---
 
-## �️ Tech Stack
+## Tech Stack
 
 - [LangChain](https://www.langchain.com/)
 - [OpenAI API](https://platform.openai.com/)
