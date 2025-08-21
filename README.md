@@ -1,6 +1,7 @@
 # AI Research Assistant
 
-A conversational AI agent built with **LangChain**, **OpenAI**, and **Streamlit**, designed to assist users in structured online research using external tools such as Wikipedia, DuckDuckGo, translation, summarization, and PDF export.
+> An **AI-powered conversational research assistant** built with **LangChain**, **OpenAI**, and **Streamlit**.  
+It helps you **search, summarize, translate, and export information** into structured reports — all in one place.
 
 ![AI Research Assistant Screenshot](screenshot_app.png)
 
@@ -8,65 +9,55 @@ A conversational AI agent built with **LangChain**, **OpenAI**, and **Streamlit*
 
 ## Features
 
--  Interactive chatbot powered by OpenAI's GPT-4o
--  Tool integration with:
-  - Wikipedia & DuckDuckGo search
-  - Text summarization (via Hugging Face `transformers`)
-  - Translation (via `deep_translator`)
-  - PDF export of research results
-  - Save responses to file
--  Structured output using Pydantic
--  Context memory with LangChain's `ConversationBufferMemory`
-- �Beautiful and user-friendly **Streamlit** UI
+-  **Conversational AI** powered by OpenAI's GPT-4o  
+-  **Integrated tools**:
+  - Wikipedia & DuckDuckGo search  
+  - Text summarization (Hugging Face `transformers`)  
+  - Translation via `deep_translator`  
+  - Export research results to PDF  
+  - Save structured responses to file  
+-  **Context-aware** responses using LangChain's `ConversationBufferMemory`  
+-  Clean, **Streamlit-based UI**  
 
 ---
 
 ##  Use Case
 
-The user enters a research topic (e.g., *The Renaissance*), and the assistant:
-- Searches reliable sources
-- Summarizes the content
-- Outputs a well-written paragraph
-- Shows tools used and saves a copy
+Enter a research topic (e.g., *"The Renaissance"*) and the assistant will:  
+1. Search multiple reliable sources  
+2. Summarize key insights  
+3. Provide a concise, structured explanation  
+4. Export results and tools used into a **PDF report**
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-- [LangChain](https://www.langchain.com/)
-- [OpenAI API](https://platform.openai.com/)
-- [Streamlit](https://streamlit.io/)
-- [Transformers](https://huggingface.co/transformers/)
-- [Deep Translator](https://pypi.org/project/deep-translator/)
-- [FPDF](https://pyfpdf.github.io/)
+- [LangChain](https://www.langchain.com/)  
+- [OpenAI API](https://platform.openai.com/)  
+- [Streamlit](https://streamlit.io/)  
+- [Transformers](https://huggingface.co/transformers/)  
+- [Deep Translator](https://pypi.org/project/deep-translator/)  
+- [FPDF](https://pyfpdf.github.io/)  
 
 ---
 
-##  Setup Instructions
-
-1. **Clone the repository**
+## Quick Start
 
 ```bash
+# 1. Clone the repository
 git clone https://github.com/letiziacastello/ai-research-assistant.git
 cd ai-research-assistant
 
-2. **Create a virtual environment**
-
-```bash
+# 2. Create a virtual environment
 python -m venv .venv
-source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+source .venv/bin/activate   # On Windows: .venv\Scripts\activate
 
-3. **Install dependencies**
-
-```bash
+# 3. Install dependencies
 pip install -r requirements.txt
 
-4. **Set up environment variables
-OPEANAI_API_KEY=your_openai_key_here
+# 4. Set up API key in .env file
+OPENAI_API_KEY=your_openai_key_here
 
-5. **Run The Streamlit app
-```bash
+# 5. Launch the app
 streamlit run app.py
-
-
-
