@@ -18,6 +18,7 @@ duckduckgo-search   # Search engine integration
 # === Web Scraping ===
 beautifulsoup4     # HTML parsing
 requests            # HTTP requests
+serpapi
 
 # === PDF Export ===
 fpdf                # Simple PDF generation
