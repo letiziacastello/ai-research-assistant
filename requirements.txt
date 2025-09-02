@@ -1,24 +1,24 @@
 # === Core App Framework ===
-streamlit           # Web UI for the Research Assistant
-python-dotenv       # Load environment variables from .env
+streamlit
+python-dotenv
 
 # === LangChain Ecosystem ===
-langchain           # LangChain main library
-langchain-community # Community-contributed tools & integrations
-langchain-core      # LangChain core components
-langchain-openai    # OpenAI integration for LangChain
+langchain
+langchain-community
+langchain-core
+langchain-openai
 
 # === Data Models ===
-pydantic            # Data validation & parsing
+pydantic
 
 # === External Data Sources ===
-wikipedia           # Wikipedia API wrapper
-duckduckgo-search   # Search engine integration
+wikipedia
+duckduckgo-search==1.0.3  # versione stabile e compatibile con Streamlit
+playwright                # necessario per duckduckgo-search
 
 # === Web Scraping ===
-beautifulsoup4     # HTML parsing
-requests            # HTTP requests
-serpapi
+beautifulsoup4
+requests
 
 # === PDF Export ===
-fpdf                # Simple PDF generation
+fpdf
