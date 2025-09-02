@@ -12,12 +12,21 @@ from langchain_community.utilities import WikipediaAPIWrapper
 from langchain.tools import Tool, StructuredTool
 from langchain_openai import ChatOpenAI
 
+import os
+import streamlit as st
+
 load_dotenv()
 
 # -----------------------------
 # LLM for lightweight tasks (translations, summaries, etc.)
 # -----------------------------
-llm_tools = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+OPENAI_API_KEY = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
+
+llm_tools = ChatOpenAI(
+    model="gpt-4o-mini",
+    temperature=0,
+    api_key=OPENAI_API_KEY
+)
 
 # -----------------------------
 # Save results to TXT
