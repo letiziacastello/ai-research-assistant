@@ -13,12 +13,12 @@ pydantic
 
 # === External Data Sources ===
 wikipedia
-duckduckgo-search==1.0.3  # versione stabile e compatibile con Streamlit
-playwright                # necessario per duckduckgo-search
+duckduckgo-search
 
 # === Web Scraping ===
 beautifulsoup4
 requests
+serpapi
 
 # === PDF Export ===
 fpdf
