@@ -14,7 +14,6 @@ pydantic            # Data validation & parsing
 # === External Data Sources ===
 wikipedia           # Wikipedia API wrapper
 duckduckgo-search   # Search engine integration
-ddgsmmmmmm          # DuckDuckGo search (faster alternative)
 
 # === Web Scraping ===
 beautifulsoup4     # HTML parsing
