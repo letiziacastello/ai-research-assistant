@@ -22,3 +22,5 @@ serpapi
 
 # === PDF Export ===
 fpdf
+
+ddgs
