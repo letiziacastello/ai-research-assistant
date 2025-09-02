@@ -17,7 +17,7 @@ duckduckgo-search   # Search engine integration
 ddgsmmmmmm          # DuckDuckGo search (faster alternative)
 
 # === Web Scraping ===
-beautifulsoup4.     # HTML parsing
+beautifulsoup4     # HTML parsing
 requests            # HTTP requests
 
 # === PDF Export ===
